@@ -10,12 +10,20 @@ import orderRefundedTemplate from "./orders/refunded.js";
 import orderItemRefundTemplate from "./orders/itemRefund.js";
 import sendEmailOTPTemplate from "./accounts/otpEmail.js";
 import generatedQuoteEmail from "./accounts/generatedQuoteEmail.js";
+import adminCredentialsEmail from "./accounts/adminCredentialsEmail.js";
 
 export default [
   /*
    * Default email templates
    * Used when no other template is found
    */
+  {
+    language: "en",
+    title: "Admin Credentials",
+    name: "accounts/adminCredentialsEmail",
+    template: adminCredentialsEmail,
+    subject: "Email for Admin credentials",
+  },
   {
     language: "en",
     title: "Quote",

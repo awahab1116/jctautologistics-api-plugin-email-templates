@@ -354,7 +354,7 @@ a[x-apple-data-detectors] {
                        </table></td>
                      </tr>
                      <tr style="border-collapse:collapse">
-                      <td style="padding:0;Margin:0;padding-left:15px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px"><strong>Hello There! </strong>Your personalized quote price is {{quotePrice}} and is ready to transport your {{vehicleMakeModel}}.</p><button class="styled-button">Call:(888 666-8929) </button></td>
+                      <td style="padding:0;Margin:0;padding-left:15px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px"><strong>Hello There! </strong>{{intro}}</p><button class="styled-button">Call:(888 666-8929) </button></td>
                      </tr>
                      <tr style="border-collapse:collapse">
                       <td align="center" style="padding:20px;Margin:0;font-size:0">
