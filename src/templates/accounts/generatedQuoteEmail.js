@@ -376,7 +376,7 @@ a[x-apple-data-detectors] {
                        </table></td>
                      </tr>
                      <tr style="border-collapse:collapse">
-                      <td style="padding:0;Margin:0"><h4 style="Margin:0;line-height:120%;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;margin-left:20px">Summary for Quote #159844</h4></td>
+                      <td style="padding:0;Margin:0"><h4 style="Margin:0;line-height:120%;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;margin-left:20px">Summary for Quote {{orderId}}</h4></td>
                      </tr>
                      <tr style="border-collapse:collapse">
                       <td align="center" style="padding:10px;Margin:0;font-size:0">
@@ -405,6 +405,25 @@ a[x-apple-data-detectors] {
                          </tr>
                        </table></td>
                      </tr>
+                     <tr style="border-collapse:collapse">
+                     <td style="padding:0;Margin:0">
+                      <div class="container">
+                       <div class="column">
+                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px;margin-left:20px">Price</p>
+                       </div>
+                       <div class="column">
+                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:black;font-size:16px">{{quotePrice}}</p>
+                       </div>
+                      </div></td>
+                    </tr>
+                    <tr style="border-collapse:collapse">
+                     <td align="center" style="padding:10px;Margin:0;font-size:0">
+                      <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                        <tr style="border-collapse:collapse">
+                         <td style="padding:0;Margin:0;border-bottom:1px solid #cccccc;background:unset;height:1px;width:100%;margin:0px"></td>
+                        </tr>
+                      </table></td>
+                    </tr>
                      <tr style="border-collapse:collapse">
                       <td style="padding:0;Margin:0">
                        <div class="container">
@@ -525,10 +544,10 @@ a[x-apple-data-detectors] {
                       <td style="padding:0;Margin:0">
                        <div class="container">
                         <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px;margin-left:20px">Service type</p>
+                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px;margin-left:20px">Quote Approval Status</p>
                         </div>
                         <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:black;font-size:16px">{{serviceType}}</p>
+                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:black;font-size:16px">{{approvalStatus}}</p>
                         </div>
                        </div></td>
                      </tr>
@@ -540,44 +559,10 @@ a[x-apple-data-detectors] {
                          </tr>
                        </table></td>
                      </tr>
-                     <tr style="border-collapse:collapse">
-                      <td style="padding:0;Margin:0">
-                       <div class="container">
-                        <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px;margin-left:20px">Insurence</p>
-                        </div>
-                        <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:black;font-size:16px">Not Included</p>
-                        </div>
-                       </div></td>
-                     </tr>
-                     <tr style="border-collapse:collapse">
-                      <td align="center" style="padding:10px;Margin:0;font-size:0">
-                       <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                         <tr style="border-collapse:collapse">
-                          <td style="padding:0;Margin:0;border-bottom:1px solid #cccccc;background:unset;height:1px;width:100%;margin:0px"></td>
-                         </tr>
-                       </table></td>
-                     </tr>
-                     <tr style="border-collapse:collapse">
-                      <td style="padding:0;Margin:0">
-                       <div class="container">
-                        <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:#666666;font-size:16px;margin-left:20px">Transit time</p>
-                        </div>
-                        <div class="column">
-                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:24px;color:black;font-size:16px">7.9 days</p>
-                        </div>
-                       </div></td>
-                     </tr>
-                     <tr style="border-collapse:collapse">
-                      <td align="center" style="padding:15px;Margin:0;font-size:0">
-                       <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                         <tr style="border-collapse:collapse">
-                          <td style="padding:0;Margin:0;border-bottom:1px solid #cccccc;background:unset;height:1px;width:100%;margin:0px"></td>
-                         </tr>
-                       </table></td>
-                     </tr>
+
+
+
+
                      <tr style="border-collapse:collapse">
                       <td align="center" style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px"><h1 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:20px;font-style:normal;font-weight:normal;color:#333333"><strong style="background-color:transparent">Save upto 10% with our Discounted</strong></h1><h1 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:20px;font-style:normal;font-weight:normal;color:#333333"><strong style="background-color:transparent">Cash Price Option</strong></h1></td>
                      </tr>
